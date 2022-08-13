@@ -17,5 +17,12 @@ fn main() {
 
     println!("{x}, {y}, {z}");
     
+    // arrays
+    let a = [1, 2, 3, 4, 5];    // similar to vector, but less flexible
+    let b: [i32; 5] = [1, -1, 2, -2, 0];
+    let c = [3; 5];             // initial value; length of the array
+
+    println!("{}", c[0]);
+    println!("a: {}", a[0]);
 }
 

@@ -32,4 +32,10 @@ fn main() {
 
     println!("end count = {cnt}");
 
+    println!("for loop with Range (1..4).rev()");
+
+    for i in (1..4).rev() {
+        println!("{i}");
+    }
+
 }
